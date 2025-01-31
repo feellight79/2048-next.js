@@ -33,21 +33,13 @@ export default function Home() {
       <div>
         <h2>🚀 Create your own game</h2>
         <p>
-          Join my{" "}
-          <a
-            href="https://assets.mateu.sh/r/github-2048-in-react-readme"
-            target="_blank"
-            rel="noopener"
-          >
-            Udemy course
-          </a>{" "}
-          and learn how to create the 2048 game from scratch.
+          Join me and Learn how to create 2048 Game with Next.js
         </p>
       </div>
       <footer>
         <div className={styles.socials}>
           <a
-            href="https://github.com/mateuszsokola/2048-in-react"
+            href="https://github.com/feellight79/2048-next.js"
             target="_blank"
             rel="noopener"
           >
@@ -58,16 +50,8 @@ export default function Home() {
               height={32}
             />
           </a>
-          <a href="https://twitter.com/msokola" target="_blank" rel="noopener">
-            <Image
-              src="social-twitter.svg"
-              alt="Matéush on Twitter"
-              width={32}
-              height={32}
-            />
-          </a>
         </div>
-        <div>Made with ❤️ by Matéush</div>
+        <div>Made with ❤️ by Roman Livinskyi</div>
       </footer>
     </div>
   );
